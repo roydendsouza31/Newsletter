@@ -35,7 +35,7 @@ app.post("/", (req, res) => {
 
   const options = {
     method: "POST",
-    auth: "royden:2607e465c35e9547be3902188c20c919-us14",
+    auth: "royden:9659321080d88db231fa8acfc855f199-us14",
   };
 
   const request = https.request(url, options, function (response) {
@@ -59,6 +59,3 @@ app.post("/failure", (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => console.log("Server is running"));
-
-//api key - 2607e465c35e9547be3902188c20c919-us14
-//audience id - 2c238c2169
